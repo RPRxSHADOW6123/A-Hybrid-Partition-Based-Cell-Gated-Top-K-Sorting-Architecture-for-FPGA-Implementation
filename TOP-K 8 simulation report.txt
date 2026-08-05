@@ -1,0 +1,52 @@
+RECTIFIED STREAMING TOP-8 TEST
+TOTAL INPUTS = 1024
+CLOCK        = 10 ns
+OUTPUT ORDER = ASCENDING TOP-8
+========================================
+========================================
+[10280 ns] END BLOCK SENT
+========================================
+[10575 ns] TOP8 OUTPUT 1 = 254
+[10585 ns] TOP8 OUTPUT 2 = 254
+[10595 ns] TOP8 OUTPUT 3 = 254
+[10605 ns] TOP8 OUTPUT 4 = 254
+[10615 ns] TOP8 OUTPUT 5 = 255
+[10625 ns] TOP8 OUTPUT 6 = 255
+[10635 ns] TOP8 OUTPUT 7 = 255
+[10645 ns] TOP8 OUTPUT 8 = 255
+========================================
+EXPECTED TOP-8 ASCENDING
+========================================
+EXPECTED 1 = 254
+EXPECTED 2 = 254
+EXPECTED 3 = 254
+EXPECTED 4 = 254
+EXPECTED 5 = 255
+EXPECTED 6 = 255
+EXPECTED 7 = 255
+EXPECTED 8 = 255
+========================================
+HARDWARE TOP-8 ASCENDING
+========================================
+HW OUTPUT 1 = 254
+HW OUTPUT 2 = 254
+HW OUTPUT 3 = 254
+HW OUTPUT 4 = 254
+HW OUTPUT 5 = 255
+HW OUTPUT 6 = 255
+HW OUTPUT 7 = 255
+HW OUTPUT 8 = 255
+========================================
+PERFORMANCE REPORT
+========================================
+TOTAL INPUTS  = 1024
+TOTAL OUTPUTS = 8
+START TIME    = 30 ns
+END TIME      = 10655 ns
+LATENCY       = 10625 ns
+CLOCK PERIOD  = 10 ns
+CLOCK CYCLES  = 1062
+RESULT        = PASS
+========================================
+SIMULATION FINISHED
+========================================
